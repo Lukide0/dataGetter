@@ -1,0 +1,272 @@
+:root {
+    --header: #050505;
+    --headerColor: rgb(255, 255, 255);
+    --body: #111111;
+    --fontColor: #ecf0f1;
+    --lightBody: #1a1a1a;
+    --info: #9b59b6;
+    --labelColor: #bdc3c7;
+    --inputBackground: #414141;
+    --inputFocus: #5a5a5a;
+    --jsonColor: #282a36;
+}
+
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    color: var(--labelColor);
+    
+}
+*:focus {
+    outline: none;
+}
+
+#header {
+    font-size: 25px;
+    line-height: 2;
+    letter-spacing: 1px;
+    padding-left: 15px;
+    height: 50px;
+    color: var(--headerColor);
+    width: calc(100% - 15px);
+    background: var(--header);
+}
+
+body {
+    background-color: var(--body);
+    color:  var(--fontColor);
+}
+
+#status {
+    width: 75%;
+    height: 50px;
+    margin: 15px auto;
+    background-color: var(--lightBody);
+    text-align: center;
+    line-height: 2.5;
+    font-size: 20px;
+    color:  var(--info);
+}
+
+label {
+    font-size: 18px;
+    color: var(--labelColor);
+}
+
+#or {
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+}
+#or div {
+    color: var(--headerColor) !important;
+
+}
+#or label {
+    display: inline-block;
+    width: 100%;
+    max-width: 100%;
+    margin: 20px 0;
+    text-align: left;
+}
+
+
+#or div {
+    width: 100%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#or label input, #or label textarea {
+    width: calc(100% - 5px);
+    max-width: calc(100% - 5px);
+    min-width: calc(100% - 5px);
+}
+
+input, select, textarea {
+    border: 0;
+    min-height: 20px;
+    padding-left: 5px;
+    background-color: var(--inputBackground);
+    border-radius: 3px;
+}
+
+input:focus, select:focus, textarea:focus {
+    background-color: var(--inputFocus);
+}
+
+input {
+    margin-top: 5px;
+    line-height: 2;
+}
+
+#options {
+    margin-top: 50px;
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#options label {
+    width: 75%;
+    margin: 20px 0;
+}
+
+#options input {
+    width: 100%;
+}
+
+input[type=submit] {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 50px;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 25px;
+    background-color: #2979FF;
+    color: white;
+    font-size: 20px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+input[type=submit]:focus, input[type=submit]:hover {
+    background-color: #2962FF;
+}
+
+.link {
+    text-align: center;
+    width: 25%;
+    margin: 25px auto;
+}
+
+#files {
+    width: 75%;
+    margin: 25px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    flex-direction: column;
+}
+#filesNames {
+    width: 75%  ;
+    display: table;
+    margin: 0 auto;
+    table-layout:fixed;
+}
+
+#filesNames div {
+    display: table-row;
+    text-align: center;
+}
+
+#filesNames div>* {
+    display: table-cell;
+}
+
+#fileNames input {
+    width: 100%;
+}
+
+#files label:nth-child(1) {
+    text-align: center;
+}
+
+#files select {
+    padding: 5px;
+}
+
+#files select, #files input {
+    margin-left: 5px;
+}
+
+#files input {
+    width: 25%;
+}
+#json, #jsonSettings {
+    margin-top: 50px;
+}
+
+#jsonSettings {
+    width: 50%;
+    float: left;
+}
+button {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 50px;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 25px;
+    background-color: #2979FF;
+    color: white;
+    font-size: 20px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+button:focus, button:hover {
+    background-color: #2962FF;
+}
+
+/*JSON*/
+#json {
+    background-color: var(--jsonColor);
+    width: 50%;
+    float: left;
+}
+#json div {
+    margin-left: 20px;
+}
+
+#json div div {
+    margin-left: 20px;
+}
+
+.squareBracket, .curlyBracket {
+    font-size: 18px;
+}
+
+.squareBracket {
+    color: #ff5555;
+}
+
+.curlyBracket {
+    color: #7b29ff;
+}
+
+.string {
+    color: #71d68a;
+}
+
+.boolean {
+    color: #ffa94d;
+}
+
+.number {
+    color: #f1fa8c;
+}
+
+.null {
+    color: #8be9fd;
+}
+
+.colon {
+    color: #c9d1e6;
+}
+
+textarea[name=json] {
+    min-width: 75%;
+    max-width: 75%;
+    min-height: 100px;
+}
+#format {
+    margin-top: 25px;
+}
+#format div {
+    text-align: center;
+    margin-top: 10px;
+}

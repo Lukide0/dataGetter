@@ -1,0 +1,82 @@
+[
+  {
+    "adress": "9 Kent Drive Easton, PA 18042",
+    "birthday": "3/20/1987",
+    "job": "Respiratory Therapist",
+    "name": "Novalee",
+    "phoneNumber": "810-596-7334",
+    "surname": "Knight"
+  },
+  {
+    "adress": "8844 San Carlos Ave. Tualatin, OR 97062",
+    "birthday": "3/20/1997",
+    "job": "Event Planner",
+    "name": "Leandro",
+    "phoneNumber": "571-788-5851",
+    "surname": "Leach"
+  },
+  {
+    "adress": "60 Heather Lane Chesterton, IN 46304",
+    "birthday": "5/24/1989",
+    "job": "Secretary",
+    "name": "Zuri",
+    "phoneNumber": "625-463-1838",
+    "surname": "Black"
+  },
+  {
+    "adress": "10 Dogwood St. Hicksville, NY 11801",
+    "birthday": "12/20/1997",
+    "job": "Cost Estimator",
+    "name": "Teresa",
+    "phoneNumber": "642-206-4900",
+    "surname": "Duran"
+  },
+  {
+    "adress": "266 1st St. Danbury, CT 06810",
+    "birthday": "8/4/1987",
+    "job": "Dental Hygienist",
+    "name": "Arya",
+    "phoneNumber": "304-404-3787",
+    "surname": "Small"
+  },
+  {
+    "adress": "22 Cherry Court Holly Springs, NC 27540",
+    "birthday": "12/27/2000",
+    "job": "Writer",
+    "name": "Madisyn",
+    "phoneNumber": "982-785-2834",
+    "surname": "George"
+  },
+  {
+    "adress": "854 Glenholme St. Rome, NY 13440",
+    "birthday": "5/19/1996",
+    "job": "Court Reporter",
+    "name": "Gunnar",
+    "phoneNumber": "392-370-0972",
+    "surname": "Hanna"
+  },
+  {
+    "adress": "5 Ashley Ave. Nashville, TN 37205",
+    "birthday": "4/7/1986",
+    "job": "School Counselor",
+    "name": "Emmett",
+    "phoneNumber": "616-912-2717",
+    "surname": "Franco"
+  },
+  {
+    "adress": "37 Manor St. Hamburg, NY 14075",
+    "birthday": "5/7/1987",
+    "job": "Sports Coach",
+    "name": "Sophia",
+    "phoneNumber": "236-578-5899",
+    "surname": "Rivas"
+  },
+  {
+    "adress": "70 Cherry St. Langhorne, PA 19047",
+    "birthday": "9/13/1995",
+    "job": "Reporter",
+    "name": "Paxton",
+    "phoneNumber": "514-829-1731",
+    "surname": "Horne"
+  }
+]
