@@ -60,6 +60,7 @@
         <button type='submit' value='true' name='try'>Try</button>
     </form>
     <div class='link'><a href='mix.php'>Mix</a></div>
+    <div class='link'><a href='database.php'>Database</a></div>
     <div class='link'><a href='format.php'>Format</a></div>
 </body>
 </html>
